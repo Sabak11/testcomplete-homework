@@ -1,0 +1,40 @@
+﻿function Test1()
+{
+  TestedApps.Orders.Run(1, true);
+  let orders = Aliases.Orders;
+  let mainForm = orders.MainForm;
+  let toolBar = mainForm.ToolBar;
+  toolBar.ClickItem(4, false);
+  let orderForm = orders.OrderFormOne;
+  let groupBox = orderForm.Group;
+  let textBox = groupBox.Customer;
+  textBox.DblClick(61, 2);
+  textBox.DblClick(60, 2);
+  textBox.Click(60, 2);
+  textBox.SetText("Lasha");
+  textBox = groupBox.Street;
+  textBox.Click(46, 4);
+  textBox.SetText("tsereteli");
+  textBox = groupBox.Town;
+  textBox.Click(17, 7);
+  textBox.SetText("kutaisi");
+  textBox = groupBox.State;
+  textBox.Click(105, 3);
+  textBox.SetText("kutaisi");
+  textBox = groupBox.Zip;
+  textBox.Click(38, 10);
+  textBox.SetText("34343");
+  textBox = groupBox.CardNo;
+  textBox.Click(116, 4);
+  textBox.SetText("2345324");
+  groupBox.ProductNames.ClickItem("FamilyAlbum");
+  orderForm.ButtonOK.ClickButton();
+  Tables.OrdersView19.Check();
+  mainForm.OrdersView.ClickItem("Lasha", 0);
+  toolBar.ClickItem(6, false);
+  let dlgConfirmation = orders.dlgConfirmation;
+  dlgConfirmation.btnYes.ClickButton();
+  Tables.OrdersView20.Check();
+  mainForm.Close();
+  dlgConfirmation.btnNo.ClickButton();
+}
