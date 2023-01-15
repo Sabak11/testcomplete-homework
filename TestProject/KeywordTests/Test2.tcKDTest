@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{4EA81AAF-C250-40F1-9D61-AA593F2F4319}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="559" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="15" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-226" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="4" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.MainForm;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="913" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="212" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.MainForm.StatusBar;" />
+				</Data>
+			</Operation>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="OrdersView10" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Jack" />
+						<Parameter Name="Param2" DefVarType="0" VarType="8" ValueType="6" ValueValue="MyMoney" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.MainForm.OrdersView;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the %p1 item of the &apos;%n&apos; toolbar." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Param2" DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.MainForm.ToolBar;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.dlgConfirmation.btnYes;" />
+				</Data>
+			</Operation>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="OrdersView11" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.MainForm;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Orders.dlgConfirmation.btnNo;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{537BDBA4-10CE-4B37-9425-0D4FF98548FA}" />
+</Root>
