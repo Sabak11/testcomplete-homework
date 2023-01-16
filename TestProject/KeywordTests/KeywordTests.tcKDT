@@ -2,5 +2,6 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="Test1" key="{5F4320DA-9C0B-4469-9B99-8479BFB0F307}" path="Test1.tcKDTest" />
+		<child name="Test4" key="{C1742B62-A18E-4770-A583-E4886B362BFF}" path="Test4.tcKDTest" />
 	</children>
 </Root>

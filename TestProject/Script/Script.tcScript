@@ -3,5 +3,8 @@
 	<children>
 		<child name="Unit1" key="{456736EE-748C-42CD-B469-EA2060ABA6EE}" path="Unit1.js" />
 		<child name="Unit2" key="{B4E4F115-046C-4823-A79B-10354E20252D}" path="Unit2.js" />
+		<child name="Unit3" key="{8CED8DDC-53AD-4185-AF28-0A6BC40BEF46}" path="Unit3.js" />
+		<child name="Unit4" key="{9A30ADAD-CF93-42D8-9E05-3B614E128C60}" path="Unit4.js" />
+		<child name="Unit5" key="{FC11784B-92D4-4021-9658-21F75DA2A49F}" path="Unit5.js" />
 	</children>
 </Root>
