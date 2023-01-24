@@ -17,19 +17,6 @@
 		</Columns>
 		<Rows SpecifedRowsCount="2">
 			<Row>
-				<Cell Type="String">Saba</Cell>
-				<Cell Type="String">MyMoney</Cell>
-				<Cell Type="String">1</Cell>
-				<Cell Type="String">4/6/2005</Cell>
-				<Cell Type="String">berbuki str</Cell>
-				<Cell Type="String">Tbilisi</Cell>
-				<Cell Type="String">Tbilisi</Cell>
-				<Cell Type="String">3700</Cell>
-				<Cell Type="String">Visa</Cell>
-				<Cell Type="String">35003345674</Cell>
-				<Cell Type="String">4/6/2005</Cell>
-			</Row>
-			<Row>
 				<Cell Type="String">Lasha</Cell>
 				<Cell Type="String">FamilyAlbum</Cell>
 				<Cell Type="String">1</Cell>
@@ -40,6 +27,19 @@
 				<Cell Type="String">34343</Cell>
 				<Cell Type="String">Visa</Cell>
 				<Cell Type="String">2345324</Cell>
+				<Cell Type="String">4/6/2005</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Saba</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">4/6/2005</Cell>
+				<Cell Type="String">berbuki str</Cell>
+				<Cell Type="String">Tbilisi</Cell>
+				<Cell Type="String">Tbilisi</Cell>
+				<Cell Type="String">3700</Cell>
+				<Cell Type="String">Visa</Cell>
+				<Cell Type="String">35003345674</Cell>
 				<Cell Type="String">4/6/2005</Cell>
 			</Row>
 		</Rows>

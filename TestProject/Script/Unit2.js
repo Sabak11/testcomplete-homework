@@ -1,6 +1,6 @@
 ﻿function Test1()
 {
-  TestedApps.Orders.Run(1, true);
+ // TestedApps.Orders.Run(1, true);
   let orders = Aliases.Orders;
   let mainForm = orders.MainForm;
   let toolBar = mainForm.ToolBar;
