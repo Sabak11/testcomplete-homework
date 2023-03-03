@@ -9,9 +9,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
-            bat(script: 'mvn -v', returnStatus: true)
+            bat 'mvn -v'
           }
         }
 
