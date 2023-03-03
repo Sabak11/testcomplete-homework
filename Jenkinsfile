@@ -6,6 +6,7 @@ pipeline {
         stage('Functional test') {
           steps {
             bat 'mvn clean test'
+            sh 'mvn clean test'
           }
         }
 
