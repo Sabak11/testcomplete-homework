@@ -6,7 +6,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh 'mvn clean'
+        sh 'mvn clean test'
       }
     }
 
