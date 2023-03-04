@@ -6,7 +6,9 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh './jenkins/scripts/test.sh'
+        sh '''/Users/os/Desktop/tbctestautomation/Jenkins/testcomplete-homework-main.sh
+
+./jenkins/scripts/test.sh'''
       }
     }
 
