@@ -6,9 +6,10 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh '''/Users/os/Desktop/tbctestautomation/Jenkins/testcomplete-homework-main.sh
+        sh '''/Users/os/.jenkins/workspace/testcomplete-homework_main@tmp/durable-fb5e24c9/script.sh:
+./jenkins/scripts/test.sh
 
-./jenkins/scripts/test.sh'''
+'''
       }
     }
 
